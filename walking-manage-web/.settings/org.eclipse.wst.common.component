@@ -4,12 +4,6 @@
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
-        <dependent-module archiveName="walking-manage-interface-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/walking-manage-interface/walking-manage-interface">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
-        <dependent-module archiveName="walking-manage-model-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/walking-manage-model/walking-manage-model">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
         <dependent-module archiveName="walking-common-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/walking-common/walking-common">
             <dependency-type>uses</dependency-type>
         </dependent-module>
